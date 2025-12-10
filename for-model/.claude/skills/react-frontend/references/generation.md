@@ -1,3 +1,7 @@
+---
+forEach: Model
+fileName: generation.md
+---
 # Frontend Generation Rules
 
 ### Precautions
