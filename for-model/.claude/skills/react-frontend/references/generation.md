@@ -10,7 +10,7 @@ The project must be generated strictly following the numbered sequence below.
 #### 1. Metadata Analysis, Validation and Package Structure Generation
 - Analyze Aggregate(aggregates), Command(commands), ReadModel(views or readModels) metadata
 - Organize Pages, Modals, Services, Types, Stores, Hooks that need to be generated accordingly
-- Correct missing package structure by referring to `@.claude/skills/react-frontend/references/package-structure.md`
+- Correct missing package structure by referring to @.claude/skills/react-frontend/references/package-structure.md
 
 #### 2. Generate Aggregate-related Components
 - Generate hooks, services, store, types components under src directory

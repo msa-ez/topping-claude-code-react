@@ -58,7 +58,7 @@ Frontend generation proceeds in the following order:
 
 1. **Frontend Setup** (Step 1)
    - Description: Frontend base structure and sidebar generation
-   - Path: @frontend-setup-prd.md
+   - Path: @.claude/skills/react-frontend/references/frontend-setup-prd.md
 
 2. **Generation Reference** (Step 2 - Highest Priority)
    - Description: Complete frontend code generation guide including metadata-based components and ERP essential features
