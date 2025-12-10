@@ -32,7 +32,7 @@
 ### Component Styles
 
 #### Cards
-- Default: `elevation={2}`, `sx={{ p: 2, borderRadius: 2 }}`
+- Default: `elevation={2}`, `sx=\{{ p: 2, borderRadius: 2 }}`
 - Hover Effect: `transform: 'translateY(-2px)'`, `transition: 'all 0.2s ease'`
 
 #### Buttons
@@ -42,7 +42,7 @@
 - Sizes: `small`, `medium`, `large`
 
 #### Avatar and Chips
-- Avatar: `sx={{ bgcolor: 'primary.main', width: 56, height: 56 }}`
+- Avatar: `sx=\{{ bgcolor: 'primary.main', width: 56, height: 56 }}`
 - Status Chips: `color="success|warning|error"`, `variant="filled"`, `size="small"`
 
 ### Data Tables
@@ -60,7 +60,7 @@
 ### Animations and Interactions
 
 #### Framer Motion
-- Fade: `initial={{ opacity: 0 }}`, `animate={{ opacity: 1 }}`, `transition={{ duration: 0.3 }}`
+- Fade: `initial=\{{ opacity: 0 }}`, `animate=\{{ opacity: 1 }}`, `transition=\{{ duration: 0.3 }}`
 - Slide: Add `x: -50` to `x: 0` for entry effect
 - Material-UI: Use `Fade`, `Slide`, `Grow` components with `timeout` prop
 

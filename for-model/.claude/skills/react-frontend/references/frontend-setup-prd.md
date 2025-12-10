@@ -47,14 +47,14 @@
 
     1) Full Window Layout
         - Container: Width and height must be fully filled when opened in browser (no vh, vw 100 processing)
-        - Box: `sx={{ display: 'flex', minHeight: '100vh' }}` for flex layout
-        - No padding: Remove default margin with `sx={{ m: 0, p: 0 }}`
+        - Box: `sx=\{{ display: 'flex', minHeight: '100vh' }}` for flex layout
+        - No padding: Remove default margin with `sx=\{{ m: 0, p: 0 }}`
 
     2) Main Page Structure
         ```typescript
-        <Box sx={{ display: 'flex', minHeight: '100vh', width: '100vw' }}>
+        <Box sx=\{{ display: 'flex', minHeight: '100vh', width: '100vw' }}>
         <Sidebar />
-        <Box sx={{ flex: 1, p: 3 }}>
+        <Box sx=\{{ flex: 1, p: 3 }}>
             <Container maxWidth="xl">
             {/* Main Content */}
             </Container>
@@ -81,9 +81,9 @@
 
     3) Sidebar Component (sidebar.tsx)
         ```typescript
-        <Drawer variant="permanent" sx={{ width: 240, '& .MuiDrawer-paper': { width: 240 } }}>
+        <Drawer variant="permanent" sx=\{{ width: 240, '& .MuiDrawer-paper': { width: 240 } }}>
         <Box 
-            sx={{ 
+            sx=\{{ 
             p: 2, 
             cursor: 'pointer',
             '&:hover': {
@@ -108,12 +108,12 @@
     4) Responsive Sidebar
     ```typescript
     // Mobile
-    <Drawer variant="temporary" open={mobileOpen} sx={{ display: { xs: 'block', md: 'none' } }}>
+    <Drawer variant="temporary" open={mobileOpen} sx=\{{ display: { xs: 'block', md: 'none' } }}>
     {/* Sidebar Content */}
     </Drawer>
 
     // Desktop  
-    <Drawer variant="permanent" sx={{ display: { xs: 'none', md: 'block' } }}>
+    <Drawer variant="permanent" sx=\{{ display: { xs: 'none', md: 'block' } }}>
     {/* Sidebar Content */}
     </Drawer>
     ```

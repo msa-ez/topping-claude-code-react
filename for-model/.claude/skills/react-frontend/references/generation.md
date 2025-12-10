@@ -107,8 +107,8 @@ const [Aggregate]Page = () => {
   return (
     <Box>
       {/* Quick Action Button Area */}
-      <Paper sx={{ p: 2, mb: 3 }}>
-        <Typography variant="subtitle1" fontWeight={500} sx={{ mb: 2 }}>
+      <Paper sx=\{{ p: 2, mb: 3 }}>
+        <Typography variant="subtitle1" fontWeight={500} sx=\{{ mb: 2 }}>
           Quick Actions
         </Typography>
         <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
@@ -182,7 +182,7 @@ const [ReadModel]View = () => {
   return (
     <Box>
       {/* Search Panel - based on queryParameters from wireframe.md */}
-      <Paper sx={{ p: 2.5, mb: 2.5 }}>
+      <Paper sx=\{{ p: 2.5, mb: 2.5 }}>
         <Typography variant="h6">{/* ReadModel title */}</Typography>
         {/* Search fields from wireframe.md */}
         <Button variant="contained" onClick={handleSearch}>Search</Button>
@@ -201,7 +201,7 @@ const [ReadModel]View = () => {
       </TableContainer>
 
       {/* Pagination */}
-      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2.5 }}>
+      <Box sx=\{{ display: 'flex', justifyContent: 'center', mt: 2.5 }}>
         <Pagination page={page} onChange={(_, value) => setPage(value)} />
       </Box>
     </Box>

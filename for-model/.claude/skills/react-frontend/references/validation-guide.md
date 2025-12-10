@@ -203,7 +203,7 @@ const [Aggregate]ListView: React.FC = () => {
       />
 
       {/* Export/Import buttons - action bar */}
-      <Box sx={{ display: 'flex', gap: 1, mb: 2 }}>
+      <Box sx=\{{ display: 'flex', gap: 1, mb: 2 }}>
         <Button startIcon={<Download />} onClick={() => setShowExport(true)}>
           Export
         </Button>
