@@ -1,1 +1,0 @@
-# topping-claude-code-react
