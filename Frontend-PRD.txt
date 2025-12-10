@@ -14,7 +14,7 @@ window.$HandleBars.registerHelper('compareName', function (name, options) {
 });
 
 var cache = []
-const includingKeys = ["", "options", "package", "_type", "fieldDescriptors", "className", "displayName", "aggregateRoot", "aggregates", "policies", "incomingRelations", "source", "commands", "readModels", "queryOption", "queryParameters", "name", "value", "type", "controllerInfo", "isRestRepository", "restRepositoryInfo", "apiPath", "method", "fullApiPath", "entities", "relations", "targetElement", "items", "portGenerated"]
+const includingKeys = ["", "options", "package", "_type", "fieldDescriptors", "className", "displayName", "aggregateRoot", "aggregates", "commands", "readModels", "queryOption", "queryParameters", "name", "value", "type", "controllerInfo", "isRestRepository", "restRepositoryInfo", "apiPath", "method", "fullApiPath", "entities", "relations", "targetElement", "items", "portGenerated"]
 
 function customStringify(obj, cache = new Set(), parentType = null, parentKey = null, path = []) {
     if (obj === null || typeof obj !== 'object') {
