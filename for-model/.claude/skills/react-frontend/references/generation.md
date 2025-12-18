@@ -37,7 +37,7 @@ The project must be generated strictly following the numbered sequence below.
 
 - Generate same number of Modal components as commands analyzed in Step 1
 - File location: `src/components/[aggregate]/[Command]Modal.tsx`
-- **UI Structure**: Strictly comply with Command HTML and fields declared in each `BoundedContext/Aggregate/PRD/wireframe.md`
+- **UI Structure**: Strictly comply with Command HTML and fields declared in each `BoundedContext/Aggregate/PRD/Wireframe/wireframe.md`
 - **API Endpoints**: Precisely follow endpoints defined in wireframe.md
 
 **Modal Basic Structure (Core Only):**
