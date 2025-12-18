@@ -5,31 +5,24 @@
 ```
 .claude/
 
+├── agents/
+│   ├── erp-frontend-architect.md
+│   └── react-frontend-architect.md
+├── settings.local.json
 └── skills/
-
-    └── frontend-react-erp/
-
-        ├── SKILL.md                        # Entry guide for frontend code generation (main entry point)
-
+    └── react-frontend/
+        ├── SKILL.md
         └── references/
-
-            ├── generation.md               # Core generation rules (highest priority)
-
-            ├── eventstorming.md            # Event Storming–based design rules
-
-            ├── fixed-generation.md         # Fixed-pattern code generation rules
-
-            ├── package-structure.md        # Project package structure
-
-            ├── technical-stack.md          # Technology stack and framework guide
-
-            └── test-generation.md          # Test code generation rules
-
+            ├── architecture.md
+            ├── design-system.md
+            ├── generation.md
+            └── validation-guide.md
 --
 
-Frontend-PRD.txt                              # Module-level requirements template
-frontend-setup-prd.txt                        # Single frontend setup and React app configuration
-erp-component-prd.txt                         # ERP component creation and integration rules
+PRD/
+    ├── Frontend-PRD.txt                    # BoundedContext level requirements
+    └── Wireframe/
+        └── wireframe.md                    # Component wireframe specifications
 ```
 
 ## Usage
