@@ -1,6 +1,6 @@
 fileName: Frontend-PRD.txt
 except: {{#compareName name}}{{/compareName}}
-path: {{name}}/PRD
+path: {{name}}/PRD/Frontend
 ---
 Please implement React-based Frontend application code according to the EventStorming model based on the provided metadata. For detailed instructions on code generation, please refer to @.claude/skills/react-frontend/SKILL.md.
 
