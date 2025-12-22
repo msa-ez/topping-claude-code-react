@@ -12,7 +12,7 @@ fileName: generation.md
 The project must be generated strictly following the numbered sequence below.
 
 #### 1. Frontend Base Structure Generation (Required Prerequisite)
-- Generate frontend base structure using the react-frontend-architect agent
+- Generate frontend base structure using the frontend-basic-structure agent
 - The agent will create:
   - Project configuration files (package.json, vite.config.ts, tsconfig.json)
   - Complete directory structure
@@ -119,8 +119,8 @@ const [Aggregate]Page = () => {
   return (
     <Box>
       {/* Quick Action Button Area */}
-      <Paper sx={{ p: 2, mb: 3 }}>
-        <Typography variant="subtitle1" fontWeight={500} sx={{ mb: 2 }}>
+      <Paper sx=\{{ p: 2, mb: 3 }}>
+        <Typography variant="subtitle1" fontWeight={500} sx=\{{ mb: 2 }}>
           Quick Actions
         </Typography>
         <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
@@ -194,7 +194,7 @@ const [ReadModel]View = () => {
   return (
     <Box>
       {/* Search Panel - based on queryParameters from wireframe.md */}
-      <Paper sx={{ p: 2.5, mb: 2.5 }}>
+      <Paper sx=\{{ p: 2.5, mb: 2.5 }}>
         <Typography variant="h6">{/* ReadModel title */}</Typography>
         {/* Search fields from wireframe.md */}
         <Button variant="contained" onClick={handleSearch}>Search</Button>
@@ -213,7 +213,7 @@ const [ReadModel]View = () => {
       </TableContainer>
 
       {/* Pagination */}
-      <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2.5 }}>
+      <Box sx=\{{ display: 'flex', justifyContent: 'center', mt: 2.5 }}>
         <Pagination page={page} onChange={(_, value) => setPage(value)} />
       </Box>
     </Box>
@@ -270,7 +270,7 @@ const handleMenuToggle = (title: string) => {
 
 #### 7. ERP Essential Features Implementation
 
-Generate ERP feature components using the erp-frontend-architect agent.
+Generate ERP feature components using the erp-component-generator agent
 
 The erp-frontend-architect agent will handle complete ERP features implementation including component generation and page integration.
 

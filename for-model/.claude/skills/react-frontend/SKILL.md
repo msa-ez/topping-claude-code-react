@@ -1,7 +1,9 @@
 ---
+
 name: Frontend Generation Guide
 description: Integrated guidelines for React-based frontend code generation
 ---
+
 # Frontend Project Generation Guidelines
 ## Instruction
 
@@ -26,7 +28,7 @@ Before starting any code generation work, you must **read the following file fir
 Frontend generation must proceed in the following order, and must be completed without omission according to the detailed sequence specified in the referenced files.
 
 **Step 1: Generate Frontend Base Structure**
-- Generate frontend base structure using the react-frontend-architect agent
+- Generate frontend base structure using the frontend-basic-structure agent
 - The agent will handle: package structure, sidebar, routing, main layout, configuration files
 - If frontend structure already exists, only adjust sidebar and main cards
 - Frontend generation is always created at root level
@@ -38,7 +40,7 @@ Frontend generation must proceed in the following order, and must be completed w
 - Complete build and error fixes
 
 **Step 3: Generate ERP Essential Features**
-- Generate ERP feature components using the erp-frontend-architect agent
+- Generate ERP feature components using the erp-component-generator agent
 - The agent will handle component generation, page integration, and self-verification
 
 **Step 4: Validation and Verification**
@@ -57,11 +59,11 @@ Frontend generation must proceed in the following order, and must be completed w
 
 2. **Base Structure Generation Reference**
    - Description: Frontend base structure and main layout implementation
-   - Instructions: Use the react-frontend-architect agent to create project configuration, structure, sidebar, and routing
+   - Instructions: Use the frontend-basic-structure agent to create project configuration, structure, sidebar, and routing
 
 3. **ERP Features Generation Reference**
    - Description: ERP common module design and implementation guide
-   - Instructions: Use the erp-frontend-architect agent to create Export/Import, Search/Filter, Activities, Reports, and Dashboard components
+   - Instructions: Use the erp-component-generator agent to create Export/Import, Search/Filter, Activities, Reports, and Dashboard components
 
 4. **Architecture Reference**
    - Description: Frontend architecture, technology stack, project structure and organization principles
