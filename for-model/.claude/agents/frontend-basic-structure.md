@@ -188,7 +188,7 @@ Material-UI Default Breakpoints:
 - xl: 1536px (large screen)
 
 Responsive Patterns:
-- `sx={{ display: { xs: 'block', md: 'none' } }}` - Conditional display
+- `sx=\{{ display: { xs: 'block', md: 'none' } }}` - Conditional display
 - `Grid item xs={12} sm={6} md={4}` - Grid layout
 - `useMediaQuery(theme.breakpoints.down('md'))` - JS branching
 

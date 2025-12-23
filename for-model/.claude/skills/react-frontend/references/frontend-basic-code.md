@@ -1,3 +1,6 @@
+forEach: Model
+fileName: frontend-basic-code.md
+---
 # React Frontend Basic Structure Code Generation Requirements
 
 ## Overview
